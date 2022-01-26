@@ -10,7 +10,7 @@ export const animals = [
     name: 'Noel the Donkey',
     type: 'donkey',
     says: 'Heee haw!',
-    top: '315px',
+    top: '425px',
     left: '38%',
   },
   {
@@ -24,8 +24,8 @@ export const animals = [
     name: 'Wilbur the Pig',
     type: 'pig',
     says: 'You have been my friend. That in itself is a tremendous thing.',
-    top: '355px',
-    left: '5%',
+    top: '380px',
+    left: '2%',
   },
   {
     name: 'Charlotte the Spider',
@@ -38,7 +38,7 @@ export const animals = [
     name: 'Samuel the Sheep',
     type: 'sheep',
     says: "Just because we're sheep, it doesn't mean we have to follow. Think for yourselves.",
-    top: '225px',
+    top: '250px',
     left: '20%',
   },
 ];

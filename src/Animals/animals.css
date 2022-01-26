@@ -1,0 +1,21 @@
+.animal-card img {
+    width: 100px;
+    height: auto;
+    
+} 
+
+/* .animal-card {
+    position: absolute;
+} */
+
+.animal {
+    padding: 10px;
+    position: absolute;
+}
+
+.animal p {
+    width: 200px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}

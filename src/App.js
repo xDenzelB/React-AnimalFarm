@@ -8,9 +8,9 @@ function App() {
   return (
     <div className="App">
       <h1>Hello animals</h1>
-      <Header />
+      <Header name ='Farmer Bartholomew' />
       <Main animals={animals}/>
-      <Footer />
+      <Footer email = 'therealoldmcdonalds@aol.com'/>
 
     </div>
   );

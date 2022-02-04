@@ -1,17 +1,14 @@
 import React from 'react';
 import './animals.css';
+import Animal from './AnimalItem';
 
-export default function Animals(props) {
+export default function Animals({ animals }) {
   return (
     <div className='animal-card'>
       {
-        props.animals.map((item) => (
-          <div className='animal' key={item.name} style={{ left: item.left, top: item.top }}>
-            <img src={`/${item.type}.png`} />
-            <h2>{item.name}</h2>
-            <p>Says: {item.says}</p>
-          </div>
-        ))
+        animals.map((item, i) => 
+          <Animal key={item + i} {...item} />)
+          
       }
     </div>
   );
